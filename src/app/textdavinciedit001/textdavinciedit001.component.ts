@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Textdavincidit001 } from '../services/textdavinciedit001.service';
+import { Textdavinciedit001 } from '../services/textdavinciedit001.service';
 
 @Component({
   selector: 'app-textdavinciedit001',
@@ -7,7 +7,7 @@ import { Textdavincidit001 } from '../services/textdavinciedit001.service';
   styleUrls: ['./textdavinciedit001.component.css']
 })
 export class Textdavinciedit001Component {
-  constructor(private textdavinciedit001 : Textdavincidit001) { }
+  constructor(private textdavinciedit001 : Textdavinciedit001) { }
 
   ngOnInit(): void {
   }
