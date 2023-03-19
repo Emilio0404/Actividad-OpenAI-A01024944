@@ -7,5 +7,5 @@ import { HttpClientModule } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'openai-routing-A01024944';
+  title = 'openai';
 }

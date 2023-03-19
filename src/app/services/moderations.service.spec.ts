@@ -1,16 +1,16 @@
-import { TestBed } from '@angular/core/testing';
+// import { TestBed } from '@angular/core/testing';
 
-import { ModerationsService } from './moderations.service';
+// import { ModerationsService } from './moderations.service';
 
-describe('ModerationsService', () => {
-  let service: ModerationsService;
+// describe('ModerationsService', () => {
+//   let service: ModerationsService;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(ModerationsService);
-  });
+//   beforeEach(() => {
+//     TestBed.configureTestingModule({});
+//     service = TestBed.inject(ModerationsService);
+//   });
 
-  xit('should be created', () => {
-    expect(service).toBeTruthy();
-  });
-});
+//   xit('should be created', () => {
+//     expect(service).toBeTruthy();
+//   });
+// });
