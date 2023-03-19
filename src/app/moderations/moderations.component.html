@@ -1,0 +1,15 @@
+<div>
+    <h1>Is it flagged?</h1>
+    <main className=main>
+        <form>
+            <input
+              type="text"
+              name="flaggedText"
+              placeholder="Enter text to check if it's flagged"
+              [(ngModel)]= "userInput"
+            />
+            <input type="button" value="Generate image" (click)="postCompletition()" />
+        </form>
+        <p><b>Flagged:</b> {{result}}</p>
+    </main>
+</div>

@@ -1,0 +1,17 @@
+<div>
+    <h1>Get a cool image!</h1>
+    <p>Note: It takes some time to load</p>
+
+    <main className=main>
+        <form>
+            <input
+              type="text"
+              name="image"
+              placeholder="Enter an image description"
+              [(ngModel)]= "userInput"
+            />
+            <input type="button" value="Generate image" (click)="postCompletition()" />
+        </form>
+        <img src= {{imageUrl}} alt="an image">
+    </main>
+</div>

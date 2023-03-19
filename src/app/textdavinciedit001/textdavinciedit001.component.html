@@ -1,0 +1,22 @@
+<div>
+    <h1>Edit some text</h1>
+
+    <main className=main>
+        <form>
+            <input
+              type="text"
+              name="originalText"
+              placeholder="Enter text to edit"
+              [(ngModel)]= "originalText"
+            />
+            <input
+              type="text"
+              name="howToEdit"
+              placeholder="Enter instruction"
+              [(ngModel)]= "howToEdit"
+            />
+            <input type="button" value="Edit text" (click)="postCompletition()" />
+        </form>
+        <p> {{editedText}} </p>
+    </main>
+</div>
