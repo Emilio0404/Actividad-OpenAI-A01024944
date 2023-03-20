@@ -40,6 +40,8 @@ jobs:
       - name: show directory
         run: |
           ls
+          cd dist
+          ls
           
       - name: cp angular build to container
         run: |
