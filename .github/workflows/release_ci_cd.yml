@@ -39,7 +39,7 @@ jobs:
           
       - name: show directory
         run: |
-          ls /dist
+          ls dist
           
       - name: cp angular build to container
         run: |
